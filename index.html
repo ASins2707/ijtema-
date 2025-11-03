@@ -1,0 +1,354 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ijtema 2024 - Spiritual Gathering</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Moving Text Banner with Hindi Hadith -->
+    <div class="moving-banner">
+        <div class="moving-text">
+            <span>📖 "जिसने अल्लाह की राह में जिहाद किया, अल्लाह उसे जन्नत में दाखिल करेगा" • </span>
+            <span>🤲 "सबसे अच्छा इंसान वह है जो कुरान सीखे और सिखाए" • </span>
+            <span>🕌 "जिसने अल्लाह के लिए मस्जिद बनाई, अल्लाह उसके लिए जन्नत में घर बनाएगा" • </span>
+            <span>👥 "मोमिन एक दूसरे के साथ मिल्कर एक शरीर की तरह हैं" • </span>
+            <span>💫 "अल्लाह तुम्हारे रूप या दौलत को नहीं, बल्कि तुम्हारे दिल और अमल को देखता है" • </span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>🌙 ईजतेमा 2024</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">होम</a>
+                <a href="#teams" class="nav-link">टीमें</a>
+                <a href="#gallery" class="nav-link">गैलरी</a>
+                <a href="#location" class="nav-link">लोकेशन</a>
+                <a href="#contact" class="nav-link">कॉन्टैक्ट</a>
+                <a href="#dawat" class="nav-link">दावत</a>
+                <a href="#participants" class="nav-link">हिस्सेदार</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">आगामी रूहानी ईजतेमा</h1>
+            <h2 class="hero-dates">23, 24, 26 नवंबर 2024</h2>
+            <p class="hero-description">ईमान, इल्म और भाईचारे की एक मुबारक महफ़िल में शामिल हों</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('teams')">टीमें देखें</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('dawat')">दावत दें</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams" class="teams-section">
+        <div class="container">
+            <h2 class="section-title">कार्यकारी टीमें</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-icon">🚦</div>
+                    <h3>ट्रैफिक मैनेजमेंट</h3>
+                    <p>यातायात प्रबंधन और पार्किंग व्यवस्था</p>
+                    <div class="team-members">
+                        <span>लीडर: अहमद रज़ा</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon">🏥</div>
+                    <h3>मेडिकल टीम</h3>
+                    <p>चिकित्सा सहायता और आपातकालीन सेवाएं</p>
+                    <div class="team-members">
+                        <span>लीडर: डॉ. फातिमा</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon">🍽️</div>
+                    <h3>खानपान टीम</h3>
+                    <p>भोजन और पानी की व्यवस्था</p>
+                    <div class="team-members">
+                        <span>लीडर: मोहम्मद अली</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon">🎤</div>
+                    <h3>तकनीकी टीम</h3>
+                    <p>साउंड और तकनीकी व्यवस्था</p>
+                    <div class="team-members">
+                        <span>लीडर: उस्मान भट्टी</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon">🛏️</div>
+                    <h3>आवास टीम</h3>
+                    <p>रुकने की व्यवस्था और कमरे</p>
+                    <div class="team-members">
+                        <span>लीडर: आयशा खान</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon">👮</div>
+                    <h3>सुरक्षा टीम</h3>
+                    <p>सुरक्षा और अनुशासन व्यवस्था</p>
+                    <div class="team-members">
+                        <span>लीडर: अब्दुल्ला शाह</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Participation Section -->
+    <section id="participants" class="live-section">
+        <div class="container">
+            <h2 class="section-title">लाइव हिस्सेदारी</h2>
+            <div class="live-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="maleCount">0</div>
+                    <div class="stat-label">पुरुष</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="femaleCount">0</div>
+                    <div class="stat-label">महिलाएं</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="childCount">0</div>
+                    <div class="stat-label">बच्चे</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="youthCount">0</div>
+                    <div class="stat-label">युवा</div>
+                </div>
+            </div>
+            
+            <div class="participants-grid">
+                <div class="mosque-circle">
+                    <h3>मस्जिदों से हिस्सेदारी</h3>
+                    <div class="circle-container">
+                        <div class="circle-item" data-count="45">मस्जिद अकबर</div>
+                        <div class="circle-item" data-count="32">मस्जिद नबवी</div>
+                        <div class="circle-item" data-count="28">जामा मस्जिद</div>
+                        <div class="circle-item" data-count="23">मस्जिद क़ुबा</div>
+                        <div class="circle-item" data-count="19">अल-अक्सा मस्जिद</div>
+                    </div>
+                </div>
+                
+                <div class="area-participation">
+                    <h3>इलाकेवार हिस्सेदारी</h3>
+                    <div class="area-list">
+                        <div class="area-item">
+                            <span class="area-name">शहर केंद्र</span>
+                            <span class="area-count">125 लोग</span>
+                        </div>
+                        <div class="area-item">
+                            <span class="area-name">उत्तरी इलाका</span>
+                            <span class="area-count">89 लोग</span>
+                        </div>
+                        <div class="area-item">
+                            <span class="area-name">दक्षिणी इलाका</span>
+                            <span class="area-count">76 लोग</span>
+                        </div>
+                        <div class="area-item">
+                            <span class="area-name">पूर्वी इलाका</span>
+                            <span class="area-count">64 लोग</span>
+                        </div>
+                        <div class="area-item">
+                            <span class="area-name">पश्चिमी इलाका</span>
+                            <span class="area-count">57 लोग</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">गैलरी</h2>
+            <div class="gallery-content">
+                <div class="social-feeds">
+                    <div class="social-feed instagram-feed">
+                        <h3><i class="fab fa-instagram"></i> Instagram</h3>
+                        <div class="feed-placeholder">
+                            <p>Instagram फोटो यहाँ ऑटोमैटिक लोड होंगी</p>
+                            <div class="loading-spinner"></div>
+                        </div>
+                    </div>
+                    <div class="social-feed youtube-feed">
+                        <h3><i class="fab fa-youtube"></i> YouTube</h3>
+                        <div class="feed-placeholder">
+                            <p>YouTube वीडियो यहाँ ऑटोमैटिक लोड होंगे</p>
+                            <div class="loading-spinner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manual-gallery">
+                    <h3>ईजतेमा तस्वीरें</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">तस्वीर 1</div>
+                        <div class="gallery-item">तस्वीर 2</div>
+                        <div class="gallery-item">तस्वीर 3</div>
+                        <div class="gallery-item">तस्वीर 4</div>
+                        <div class="gallery-item">तस्वीर 5</div>
+                        <div class="gallery-item">तस्वीर 6</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location-section">
+        <div class="container">
+            <h2 class="section-title">लोकेशन</h2>
+            <div class="location-content">
+                <div class="map-container">
+                    <div class="clickable-map">
+                        <div class="map-placeholder">
+                            <h3>ईजतेमा स्थान - मुख्य मरकज़ ग्राउंड</h3>
+                            <p>📍 शहर केंद्र मस्जिद एरिया</p>
+                            <button onclick="openGoogleMaps()" class="btn btn-primary">
+                                <i class="fas fa-map-marker-alt"></i> Google Maps में खोलें
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-section">
+                    <h3>ईजतेमा बैनर</h3>
+                    <div class="banner-upload">
+                        <div class="banner-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>बैनर तस्वीर यहाँ अपलोड करें</p>
+                            <button class="btn btn-secondary">तस्वीर अपलोड करें</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">संपर्क करें</h2>
+            <div class="contact-table">
+                <div class="table-header">
+                    <div>नाम</div>
+                    <div>फ़ोन नंबर</div>
+                    <div>मस्जिद</div>
+                    <div>जिम्मेदारी</div>
+                </div>
+                <div class="table-row">
+                    <div>अहमद रज़ा</div>
+                    <div>+92 XXX XXXXXX</div>
+                    <div>मस्जिद अकबर</div>
+                    <div>ट्रैफिक मैनेजमेंट</div>
+                </div>
+                <div class="table-row">
+                    <div>डॉ. फातिमा</div>
+                    <div>+92 XXX XXXXXX</div>
+                    <div>जामा मस्जिद</div>
+                    <div>मेडिकल टीम</div>
+                </div>
+                <div class="table-row">
+                    <div>मोहम्मद अली</div>
+                    <div>+92 XXX XXXXXX</div>
+                    <div>मस्जिद नबवी</div>
+                    <div>खानपान टीम</div>
+                </div>
+                <div class="table-row">
+                    <div>आयशा खान</div>
+                    <div>+92 XXX XXXXXX</div>
+                    <div>मस्जिद क़ुबा</div>
+                    <div>आवास टीम</div>
+                </div>
+                <div class="table-row">
+                    <div>उस्मान भट्टी</div>
+                    <div>+92 XXX XXXXXX</div>
+                    <div>अल-अक्सा मस्जिद</div>
+                    <div>तकनीकी टीम</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dawat Section -->
+    <section id="dawat" class="dawat-section">
+        <div class="container">
+            <h2 class="section-title">दावत दें</h2>
+            <div class="dawat-content">
+                <div class="dawat-instructions">
+                    <h3>दावत देने का तरीका</h3>
+                    <div class="instructions-list">
+                        <div class="instruction-item">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>गूगल फॉर्म भरें</h4>
+                                <p>नीचे दिए गए लिंक पर क्लिक करके गूगल फॉर्म भरें</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>जानकारी शेयर करें</h4>
+                                <p>अपने दोस्तों और परिवार को ईजतेमा की जानकारी दें</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>लिंक शेयर करें</h4>
+                                <p>दावत का लिंक व्हाट्सएप्प और अन्य ऐप्स पर शेयर करें</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dawat-actions">
+                    <div class="action-card">
+                        <h4>गूगल फॉर्म</h4>
+                        <p>सीधे गूगल फॉर्म में रजिस्टर करें</p>
+                        <button onclick="openGoogleForm()" class="btn btn-primary">
+                            <i class="fab fa-google"></i> फॉर्म खोलें
+                        </button>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h4>दावत लिंक</h4>
+                        <p>दावत का लिंक कॉपी करें</p>
+                        <div class="share-link">
+                            <input type="text" id="dawatLink" value="https://forms.gle/ijtema2024" readonly>
+                            <button onclick="copyDawatLink()" class="btn btn-copy">
+                                <i class="fas fa-copy"></i> कॉपी
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ईजतेमा दावत पोर्टल. सभी अधिकार सुरक्षित.</p>
+            <p>सवालों के लिए: support@ourijtema.org</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
